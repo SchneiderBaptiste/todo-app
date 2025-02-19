@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - backend/**  # Ne déclenche le workflow que si des fichiers dans le dossier backend sont modifiés
+      - src/backend/**  # Ne déclenche le workflow que si des fichiers dans le dossier backend sont modifiés
 
 env:
   REGISTRY_URL: "exo.container-registry.com"
