@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - src/frontend/**  # Ne déclenche le workflow que si des fichiers dans le dossier backend sont modifiés
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
